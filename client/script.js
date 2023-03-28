@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //Busca os dados do server, ou seja, a resposta do bot
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://toninaipravoce.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
